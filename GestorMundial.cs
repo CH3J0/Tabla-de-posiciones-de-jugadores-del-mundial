@@ -1,5 +1,5 @@
 using System;                                                      // Necesario para tipos base
-using System.IO;                                                   // Necesario para leer archivos (soporte auxiliar permitido)
+using System.IO;                                                   // Necesario para leer archivos 
 
 // Clase que administra el catalogo de jugadores. Usa el Arbol B+ como estructura
 // principal (indexado por Id) y genera reportes apoyandose en los monticulos Min y Max
@@ -10,10 +10,10 @@ class GestorMundial
     // Constructor: inicializa el Arbol B+ de orden 4 (maximo 3 claves por nodo)
     public GestorMundial()
     {
-        arbol = new ArbolBMas(4);                                   // Orden 4 es un valor tipico para practicas de B+
+        arbol = new ArbolBMas(4);                               
     }
 
-    // REGISTRAR: agrega un nuevo jugador al arbol (rechaza Ids duplicados)
+    // REGISTRAR: agrega un nuevo jugador al arbol 
     public void RegistrarJugador(Jugador jugador)
     {
         bool insertado = arbol.Insertar(jugador);                   // Insertamos en el Arbol B+ (clave = Id)
@@ -74,9 +74,6 @@ class GestorMundial
         monticulo.MostrarOrdenadoDescendente();                       // Imprimimos ordenado de mayor a menor
     }
 
-    // DEMOSTRACION DE MONTICULO: arma un Monticulo Max con la categoria elegida y permite
-    // ver su estructura interna, buscar un jugador y eliminarlo, para evidenciar que el
-    // monticulo tambien implementa insertar, buscar, eliminar, imprimir y recorrer
     public void DemoMonticulo(string categoria, int idParaProbar)
     {
         Jugador[] todos = arbol.ObtenerTodosOrdenadosPorId();          // Tomamos el catalogo actual
