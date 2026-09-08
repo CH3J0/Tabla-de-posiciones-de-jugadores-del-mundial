@@ -1,11 +1,16 @@
 Id,Nombre,Seleccion,Posicion,Minutos,Goles,Asistencias,Tarjetas,Partidos
-1,Lionel Messi,Argentina,DEL,540,7,3,1,7
-2,Kylian Mbappe,Francia,DEL,630,8,2,2,7
-3,Luka Modric,Croacia,MED,600,2,4,3,7
-4,Emiliano Martinez,Argentina,POR,690,0,0,1,7
-5,Harry Kane,Inglaterra,DEL,480,5,1,2,5
-6,Kevin De Bruyne,Belgica,MED,450,1,5,1,5
-7,Vinicius Jr,Brasil,DEL,510,4,3,2,6
-8,Virgil van Dijk,Holanda,DEF,540,1,0,3,6
-9,Bukayo Saka,Inglaterra,DEL,470,3,4,1,5
-10,Rodri,Espana,MED,600,2,2,2,7
+1,Mateo Lopez,Guatemala,DEL,480,6,2,1,6
+2,Carlos Mendez,Mexico,MED,510,2,7,2,6
+3,Lucas Silva,Brasil,DEL,525,8,3,1,6
+4,Diego Torres,Argentina,DEF,540,1,1,3,6
+5,Andres Ruiz,Colombia,MED,450,3,5,2,5
+6,Pedro Santos,Brasil,POR,540,0,0,0,6
+7,Javier Morales,Mexico,DEL,390,5,2,2,5
+8,Nicolas Perez,Argentina,MED,505,4,6,1,6
+9,Sebastian Diaz,Colombia,DEL,360,7,1,3,4
+10,Fernando Castillo,Guatemala,DEF,420,1,3,4,5
+11,Rafael Lima,Brasil,MED,470,2,4,2,5
+12,Tomas Gomez,Mexico,DEF,495,1,2,3,6
+13,Luis Fernandez,Argentina,DEL,515,6,4,1,6
+14,Daniel Rojas,Colombia,POR,540,0,1,1,6
+15,Adrian Morales,Guatemala,MED,430,3,5,2,5
