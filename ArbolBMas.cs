@@ -169,7 +169,6 @@ class ArbolBMas
     }
 
     // ELIMINAR: quita un jugador de la hoja correspondiente segun su Id
-    // (simplificado: no fusiona nodos con pocas claves, suficiente para el alcance del proyecto)
     public bool Eliminar(int id)
     {
         NodoBMas actual = raiz;                                       // Comenzamos desde la raiz
