@@ -50,3 +50,4 @@ class Jugador
                $"Tarj:{Tarjetas,-3} PJ:{PartidosDisputados,-3}";                      // Tarjetas y partidos jugados
     }
 }
+
