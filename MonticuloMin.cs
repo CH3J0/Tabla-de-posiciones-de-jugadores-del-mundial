@@ -8,13 +8,13 @@ class MonticuloMin
 {
     private Jugador[] datos;                                       // Arreglo que almacena el monticulo
     private int tamanioActual;                                     // Cantidad de elementos en el monticulo
-    private int capacidadMaxima;                                   // Tope K de elementos conservados (ej. 5)
+    private int capacidadMaxima;                                   // Tope K de elementos conservados 
     private string categoria;                                      // Categoria numerica usada para comparar
 
     // Constructor: k = cuantos elementos como maximo se conservan (Top-K)
     public MonticuloMin(int k, string categoria)
     {
-        capacidadMaxima = k;                                        // Guardamos el tope (ej. 5 para Top 5)
+        capacidadMaxima = k;                                        // Guardamos el tope 
         datos = new Jugador[k];                                      // Arreglo de tamanio fijo k
         tamanioActual = 0;                                           // Inicialmente vacio
         this.categoria = categoria;                                  // Guardamos la categoria de comparacion
