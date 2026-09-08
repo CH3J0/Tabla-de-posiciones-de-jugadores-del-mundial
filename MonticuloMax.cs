@@ -1,6 +1,6 @@
 using System;                                                      // Necesario para tipos base y Console
 
-// Monticulo (heap) Max implementado con arreglo propio (no PriorityQueue nativo)
+// Monticulo (heap) Max implementado con arreglo propio 
 // Se usa para: 1) obtener rapido al mejor jugador de una categoria (raiz = maximo)
 //              2) generar el listado completo ordenado de mayor a menor (heap sort)
 class MonticuloMax
